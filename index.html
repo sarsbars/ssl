@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">  
-    <!-- dir= direction ltr=left to right, this is not necessary for us-->
     <head>
-        <!-- This is an HTML comment, it is ignored by the browser-->
         <meta charset="utf-8"/>  
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Sarah Mitchell" />
@@ -10,61 +8,101 @@
         <meta name="keywords" content="web development, html, css, javascript,
         winnipeg, canada">
         <link rel="icon" href="./assets/img/caticon.png" type="image/png">
-        <link rel="stylesheet" href="./style.css" media="all">
+        <link rel="stylesheet" href="./assets/css/style.css" media="all">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link 
-            href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" 
-            rel="stylesheet">   
+           href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+           rel="stylesheet"
+        >
         <title>SSL</title>
     </head>
     <body>
         <main>
             <div class="container">
-                <h2> Webpage Security</h2>
+                <h1> Webpage Security</h1>
                 <article>
                     <p class="question">
                         What is SSL?
                     </p>
                     <p class="answer">
+                        SSL (Secure Sockets Layer) is a protocol that encrypts 
+                        data transmitted between a web browser and a server, 
+                        ensuring that sensitive information like passwords and 
+                        credit card details stays private and secure.
 
                     </p>
                     <p class="question">
                         What is TLS?
                     </p>
                     <p class="answer">
-                        
+                        TLS (Transport Layer Security) is a protocol that 
+                        ensures secure communication over the internet by 
+                        encrypting data and verifying the identity of the 
+                        parties involved. It is the successor to SSL, 
+                        offering stronger encryption and improved security 
+                        features for modern applications.
                     </p>
                     <p class="question">
                         How can I tell that my webpage is secure?
                     </p>
                     <p class="answer">
-                        
+                        You can tell your webpage is secure if the URL starts 
+                        with "https://" instead of "http://" and there’s a 
+                        padlock icon next to it in the browser’s address bar.
+                         Clicking the padlock shows details about the website's 
+                         security certificate.
                     </p>
                     <p class="question">
                         What does it mean to be secure?
                     </p>
                     <p class="answer">
-                        
+                        A secure webpage means the data you send and receive 
+                        is encrypted, so it can't be easily read by hackers or
+                         unauthorized people. It also verifies the website's 
+                         identity to ensure you're communicating with the right 
+                         site.
                     </p>
                     <p class="question">
                         What is encryption and why do I care?
                     </p>
                     <p class="answer">
-                        
+                        Encryption is a way of scrambling information so only 
+                        the intended recipient can understand it, keeping it 
+                        safe from hackers or eavesdroppers. You should care 
+                        because it protects sensitive data like passwords, 
+                        credit card numbers, and personal messages when using 
+                        the internet.
                     </p>
                     <p class="question">
                         Do the prefixes HTTP or HTTPS matter when we're talking
                         about secure websites?
                     </p>
                     <p class="answer">
-                        
+                        Yes, the prefix matters, HTTP (Hypertext Transfer 
+                        Protocol) sends data without encryption, making it less 
+                        secure, while HTTPS (HTTP Secure) encrypts data.
                     </p>
                     <p class="question">
                         What is an SSL certificate authority?
                     </p>
                     <p class="answer">
+                        An SSL Certificate Authority (CA) is a trusted 
+                        organization that issues SSL/TLS certificates 
+                        to websites. These certificates validate the identity 
+                        of the website and enable encrypted communication 
+                        between the site and its visitors, ensuring that the 
+                        website is legitimate and secure.
                         
+                    </p>
+                    <p>Imagine you’re sending a secret message to your friend, 
+                    and you don’t want anyone else to read it. You decide to put 
+                    the message in a magic box that locks itself and only your 
+                    friend has the key to open it. 
+                    <br> Now, even if someone grabs the box while it’s being 
+                    sent, they can’t open it or see your message inside. That’s 
+                    what SSL does! It’s like the magic box that keeps your 
+                    information safe when you’re using the internet. 
                     </p>
                     
                 </article>
