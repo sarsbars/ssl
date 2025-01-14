@@ -1,0 +1,43 @@
+@charset "utf-8";
+* { 
+   
+    margin: 0;
+    padding: 0; 
+    outline: none; 
+    border-style: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}   
+
+body {
+    
+    font-family: "Sniglet", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.container {
+    width: min(100% - 30px,1080px);
+    margin-inline: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+h2 {
+    margin-top:40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pc{
+    margin-top: 1pc;
+    font-size: 80 pc;
+}
+
+.answer {
+    margin-top: 1pc;
+    font-size: 100 pc;
+}
